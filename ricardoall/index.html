@@ -38,7 +38,34 @@
 
     .nav-link{
         color: #cac235;
-     }
+    }
+
+    .carousel-img1{
+        height: 500px;
+        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city1.jpg);
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-img2{
+        height: 500px;
+        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city2.jpg);
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-img3{
+        height: 500px;
+        background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city3.jpg);
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     .content {
         /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 21%, rgba(84,84,84,0.6166841736694677) 55%, rgba(27,27,27,1) 100%), url(/img/city1.jpg);*/
@@ -111,17 +138,37 @@
                 <li><a href="#" class="nav-link px-2 ">ricardoall_</a></li>
             </ul>
             <ul class="nav m-0">
-                <li><a href="indexv2.html" class="nav-link px-2 link-secondary">v2</a></li>
+                <li><a href="/" class="nav-link px-2 link-secondary">Original</a></li>
                 <li><a href="#" class="nav-link px-2 ">World wide site</a></li>
             </ul>
         </div>
     </div>
 </header>
 
-
-<section class="p-5 content text-white">
-    <div class="container">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="height: 500px">
+<section class="position-relative">
+    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <div class="carousel-img1"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="carousel-img2"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <div class="carousel-img3"></div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="position-absolute text-white" style="width: 100%; top: 120px;">
+        <div class="d-flex flex-column align-items-center justify-content-center ">
             <img src="/img/ricardoall3.jpg" style="height: 120px; width: 120px; object-fit: cover; padding: 2px"
                  class="shadow-v1 rounded-circle bg-white" alt="...">
             <h1 class="display-5 mt-3">HELLO FRIEND</h1>
@@ -143,7 +190,7 @@
                         </svg>
                     </span>
                 </a>
-                <a class="nav-link link-light ms-3" style="color: #c8c8c8 !important;" href="#" target="_blank" data-bs-toggle="tooltip" data-bs-title="Not avialable yet, but soon">
+                <a class="nav-link link-light ms-3" style="color: #c8c8c8 !important;" href="#"  data-bs-toggle="tooltip" data-bs-title="Not avialable yet, but soon">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                              class="bi bi-facebook" viewBox="0 0 16 16">
@@ -169,12 +216,13 @@
             </div>
         </div>
     </div>
+
 </section>
 
 <section class="py-5">
     <div class="container">
         <div class="row justify-content-center text-center">
-            <div class="col-6">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-6">
                 <h5 class="fw-bold mb-2">About</h5>
                 <p>
                     Hi, I’m a full-stack developer focused on backend, automation,
@@ -189,14 +237,13 @@
 <section class="py-5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-8 text-center">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-6 text-center">
                 <h5 class="fw-bold mb-2">
                     What I Do
                 </h5>
                 <p>
                     I'm the developer behind the Katrum Web Console, a modular platform for managing cloud infrastructure and app services. It’s designed to handle everything from image and environment configuration to routing, SSL management, and deployment control—all through a clean, organized UI.
                 </p>
-
             </div>
         </div>
     </div>
@@ -204,20 +251,20 @@
 
 <section class="py-5">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center align-items-center">
             <div class="col-12 text-center">
                 <div class="p-2 border-3 border-white rounded-4">
-                    <h4 class="text-white fw-bold">👽 Apps</h4>
+                    <h5 class="text-white fw-bold">👽 Apps</h5>
                     <p>Applications currently working on...</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-4">
                 <div id="app1" class="p-4 border-3 border-white rounded-4 app1" style="height: 300px; cursor:  pointer">
                     <a href="https://bac.ricardoall.dev/" target="_blank" class="link-light fw-bold">Transactions viewer</a>
                     <p> Bac</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-4">
                 <div id="app2" class="p-4 border-3 border-white rounded-4 app2" style="height: 300px">
                     <p class="fw-bold">DICOM Viewer in Blazor</p>
                     <p>DICOM Format</p>
