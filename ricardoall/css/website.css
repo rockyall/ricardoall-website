@@ -1,0 +1,103 @@
+.carousel-img1{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city1.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-img2{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city2.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-img3{
+    height: 500px;
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city3.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.content {
+    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 21%, rgba(84,84,84,0.6166841736694677) 55%, rgba(27,27,27,1) 100%), url(/img/city1.jpg);*/
+    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 30%, rgba(84,84,84,0.6166841736694677) 55%, rgba(27,27,27,1) 100%), url(/img/city1.jpg);*/
+    /*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 46%, rgba(84,84,84,0.6166841736694677) 60%, rgba(27,27,27,1) 100%), url(/img/city1.jpg);*/
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(84,84,84,0.6250875350140056) 25%, rgba(84,84,84,0.17130602240896353) 50%, rgba(84,84,84,0.6166841736694677) 75%, rgba(34,34,34,1) 100%), url(/img/city1.jpg);
+    /*background: linear-gradient(180deg, rgb(34, 34, 34) 0%, rgba(84, 84, 84, 0.7035189075630253) 46%, rgba(84, 84, 84, 0.6166841736694677) 60%, rgb(34, 34, 34) 100%), url(/img/city1.jpg);*/
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app1{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 9%, rgba(0,0,0,0.8463760504201681) 21%, rgba(0,0,0,0.3449754901960784) 40%, rgba(84,84,84,0) 60%, rgba(84,84,84,0.12368697478991597) 75%, rgba(34,34,34,1) 100%), url(/img/app2.png);
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app1:hover{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 21%, rgba(84,84,84,0.6166841736694677) 55%, rgba(27,27,27,1) 100%), url(/img/app2.png);
+    opacity: 1;
+    transition: 2s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app2{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 9%, rgba(0,0,0,0.8463760504201681) 21%, rgba(0,0,0,0.3449754901960784) 40%, rgba(84,84,84,0) 60%, rgba(84,84,84,0.12368697478991597) 75%, rgba(34,34,34,1) 100%), url(/img/app3.png);
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app2:hover{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 21%, rgba(84,84,84,0.6166841736694677) 55%, rgba(27,27,27,1) 100%), url(/img/app3.png);
+    opacity: 1;
+    transition: 2s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app3{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 9%, rgba(0,0,0,0.8463760504201681) 21%, rgba(0,0,0,0.3449754901960784) 40%, rgba(84,84,84,0) 60%, rgba(84,84,84,0.12368697478991597) 75%, rgba(34,34,34,1) 100%), url(/img/app4.png);
+    opacity: 1;
+    transition: 2s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 8px 16px 0px rgba(18, 210, 255, 0.95);
+
+}
+
+.app3:hover{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(84,84,84,0.5718662464985995) 21%, rgba(84,84,84,0.6166841736694677) 55%, rgba(27,27,27,1) 100%), url(/img/app4.png);
+    opacity: 1;
+    transition: 2s;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 8px 16px 0px rgba(18, 210, 255, 0.95);
+}
